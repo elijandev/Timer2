@@ -10,7 +10,7 @@ function chrono() {
 
   function verifer(){
 
-  if(isNaN()){
+  if(isNaN(set)){
     document.getElementById('set').classList.add('error')
     let div=document.querySelector('div')
    let p=document.createElement('p')
@@ -47,7 +47,10 @@ verifer()
     document.getElementById('set').classList.remove('error')
     let div=document.querySelector('div')
     let p=document.querySelector('p')
-    div.removeChild(p)
+   
+     div.removeChild(p) 
+   
+    
 
   })
  
